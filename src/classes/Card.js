@@ -10,6 +10,7 @@ export default class Card extends Phaser.GameObjects.Sprite {
     this.setScale(1.2);
     this.setInteractive();
     this.showBack = () => {};
+
     scene.add.existing(this);
   }
 }
